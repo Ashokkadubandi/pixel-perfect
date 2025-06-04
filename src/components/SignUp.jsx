@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../styles/signup.css'
 
 const SignUp = () => {
   return (
     <div className='layout'>
       <div className='signup-container'>
-        <h4 className='signup-header'>Create your PopX account</h4>
+        <h3 className='signup-header'>Create your PopX account</h3>
         <form className='signup-form'>
             <div className='inp-container'>
                 <lable className='inp-label' htmlFor='name'>Full Name <span>*</span></lable>
@@ -32,7 +33,9 @@ const SignUp = () => {
             <label className='agency-label' htmlFor='yes'>Yes</label>
             <input name='same' type='radio' id='no'/>
             <label className='agency-label' htmlFor='no'>No</label>
+            <Link to={'/login'}>
             <button className='sub signup-btn'>Create Account</button>
+            </Link>
         </form>
       </div>
     </div>
