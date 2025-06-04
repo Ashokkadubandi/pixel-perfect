@@ -11,11 +11,11 @@
     width: 90%;
 }
 .welcome-header{
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     padding-bottom: 0.5rem;
 }
 .welcome-desc{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #323f4b;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -28,4 +28,5 @@
     text-align: center;
     padding-top: 12px;
     cursor: pointer;
+    font-weight: 500;
 }
