@@ -1,26 +1,28 @@
 .signup-container{
     height: 100%;
-    padding: 15px;
+    padding: 20px;
 }
 .signup-header{
-    font-size: 1.2rem;
-    width: 50%;
+    font-size: 2rem;
+    width: 40%;
+    line-height: 1.5;
 }
 .signup-form{
     height: 80%;
     position: relative;
+    margin-top: 2rem;
 }
 
 .inp-container{
     position: relative;
     border: 1.5px solid rgb(221, 216, 216);
     border-radius: 8px;
-    padding: 0.6rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 .inp-label{
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: purple;
     display: block;
     position: absolute;
@@ -41,6 +43,8 @@
 }
 .signup-agency{
     padding-bottom: 12px;
+    padding-top: 12px;
+    font-size: 1.2rem;
 }
 input[type="radio"] {
     accent-color: purple;
