@@ -1,0 +1,30 @@
+.welcome-container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.welcome-card{
+    padding: 1rem;
+    width: 90%;
+}
+.welcome-header{
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+.welcome-desc{
+    font-size: 1rem;
+    color: #323f4b;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 80%;
+    line-height: 1.5;
+}
+
+.text-option{
+    color: black;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}

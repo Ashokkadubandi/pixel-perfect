@@ -1,0 +1,59 @@
+.signup-container{
+    height: 100%;
+    padding: 15px;
+}
+.signup-header{
+    font-size: 2rem;
+    width: 50%;
+}
+.signup-form{
+    height: 80%;
+    position: relative;
+}
+
+.inp-container{
+    position: relative;
+    border: 1.5px solid rgb(221, 216, 216);
+    border-radius: 8px;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.inp-label{
+    font-size: 0.8rem;
+    color: purple;
+    display: block;
+    position: absolute;
+    top: -8px;
+    left: 15px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.inp-label span{
+    color: red;
+}
+.inp-input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}
+.signup-agency{
+    padding-bottom: 12px;
+}
+input[type="radio"] {
+    accent-color: purple;
+    margin-right: 5px;
+}
+.signup-form label{
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.signup-btn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
