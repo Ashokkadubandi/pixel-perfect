@@ -3,12 +3,15 @@
     padding: 20px;
 }
 .signup-header{
-    font-size: 2rem;
-    width: 60%;
+    font-size: 1.8rem;
+    width: 50%;
     line-height: 1.5;
 }
 .sign-in-desc{
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1.5;
+    width: 50%;
+    color: #323f4b;
 }
 .signup-form{
     height: 80%;
@@ -26,7 +29,7 @@
 }
 .inp-label{
     font-size: 1rem;
-    color: purple;
+    color: #6d1eff;
     display: block;
     position: absolute;
     top: -8px;
@@ -43,6 +46,7 @@
     outline: none;
     background-color: transparent;
     width: 100%;
+    padding-left: 10px;
 }
 .signup-agency{
     padding-bottom: 12px;
