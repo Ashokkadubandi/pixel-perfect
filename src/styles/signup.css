@@ -28,7 +28,7 @@
     margin-bottom: 1.2rem;
 }
 .inp-label{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #7b1fe7;
     display: block;
     position: absolute;
@@ -56,6 +56,8 @@
 input[type="radio"] {
     accent-color: purple;
     margin-right: 5px;
+    height: 30px;
+    width: 30px;
 }
 .signup-form label{
     padding-right: 15px;
