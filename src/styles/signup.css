@@ -7,9 +7,9 @@
     width: 50%;
     line-height: 1.5;
 }
-@media(max-width:436px){
+@media(max-width:420px){
     .signup-header{
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 }
 .sign-in-desc{
