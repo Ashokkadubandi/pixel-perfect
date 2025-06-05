@@ -21,11 +21,11 @@ body{
     }
 }
 .sub{
-  background-color: #7600bb;
+  background-color: #6d1eff;
   padding: 1rem;
   width: 100%;
   color: rgb(255, 254, 248);
-  font-size: 0.8rem;
+  font-size: 24px;
   border: none;
   border-radius: 8px;
   margin-top: 5px;
