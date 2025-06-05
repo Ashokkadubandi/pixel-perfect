@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaCamera } from "react-icons/fa6";
+import profileEdit from '../assets/profile-upload.svg'
 import '../styles/home.css'
 
 const Home = () => {
@@ -11,9 +11,7 @@ const Home = () => {
           <div className='profile-short-desc-con'>
             <div className='profile-container'>
               <img className='profile-img' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw0PDKrErulLlbJkbv5KtsCeICczdgJSyurA&s'/>
-              <p className='profile-img-upload'>
-                <FaCamera/>
-              </p>
+              <img className='profile-img-upload' src={profileEdit}/>
             </div>
             <div className='profile-text-container'>
               <h3>John Doe</h3>

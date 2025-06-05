@@ -1,11 +1,13 @@
 .signup-container{
     height: 100%;
     padding: 20px;
+    background-color: #F7F8F9;
 }
 .signup-header{
     font-size: 1.8rem;
     width: 50%;
     line-height: 1.5;
+    color: #1D2226;
 }
 
 @media(max-width:420px){
@@ -37,7 +39,7 @@
 }
 .inp-label{
     font-size: 0.9rem;
-    color: #7b1fe7;
+    color: #6C25FF;
     display: block;
     position: absolute;
     top: -8px;
@@ -45,6 +47,7 @@
     background-color: white;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Rubik',sans-serif;
 }
 .inp-label span{
     color: red;
@@ -55,6 +58,7 @@
     background-color: transparent;
     width: 100%;
     padding-left: 10px;
+    color: #1D2226;
 }
 .signup-agency{
     padding-bottom: 12px;

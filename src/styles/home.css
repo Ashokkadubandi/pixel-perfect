@@ -4,14 +4,15 @@
     overflow-x: hidden;
 }
 .home-settings-header{
-    font-size: 1.2rem;
     color: black;
     padding-left: 12px;
     padding-bottom: 12px;
     font-weight: 400;
+    font: normal normal normal 18px/21px Rubik;
+    text-transform: capitalize;
 }
 .profile-intro-card{
-    background-color: #eeeeee;
+    background-color: #F7F8F9;
     position: relative;
     height: 90%;
 }
@@ -35,7 +36,6 @@
     width: 30px;
     text-align: center;
     padding-top: 10px;
-    background-color: purple;
     color: white;
     font-weight: bold;
     border-radius: 75%;
@@ -47,14 +47,18 @@
 }
 .profile-text-container{
     padding-left: 15px;
+    color: #1D2226;
 }
 .profile-text-container h3{
     font-size: 22px;
     font-weight: 500;
+    font: normal normal medium 15px/19px Rubik;
 }
 .profile-text-container p{
     color: #323f4b;
     padding-top: 5px;
+    font: normal normal normal 14px/22px Rubik;
+    opacity: 1;
 }
 .profile-desc-home{
     padding-left: 15px;
@@ -65,7 +69,7 @@
 .hr-dashed{
     margin-top: 15px;
     border: none;
-    border-top: dashed 1.5px rgb(211, 200, 200);
+    border-top: dashed 1.5px #CBCBCB;
 }
 .hr-dashed-bottom{
     position: absolute;

@@ -13,7 +13,7 @@ const Welcome = () => {
             <button className='sub'>Create Account</button>
         </Link>
         <Link className='text-decor' to={'/login'}>
-            <p className='text-option'>Already Registered? Login</p>
+            <button className='text-option'>Already Registered? Login</button>
         </Link>
         </div>
       </div>
