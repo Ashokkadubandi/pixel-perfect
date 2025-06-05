@@ -1,2 +1,76 @@
-
-
+.home-container{
+    height: 100%;
+    padding: 25px;
+    overflow-x: hidden;
+}
+.home-settings-header{
+    font-size: 1.2rem;
+    color: black;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    font-weight: 400;
+}
+.profile-intro-card{
+    background-color: #eeeeee;
+    position: relative;
+    height: 90%;
+}
+.profile-short-desc-con{
+    display: flex;
+    padding: 15px;
+}
+.profile-container{
+    height: 90px;
+    width: 90px;
+    position: relative;
+}
+.profile-img{
+    height: 100%;
+    width: 90px;
+    border-radius: 75%;
+    transform: scale(1);
+}
+.profile-img-upload{
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border-radius: 75%;
+    font-size: 12px;
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: -10px;
+}
+.profile-text-container{
+    padding-left: 15px;
+}
+.profile-text-container h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+.profile-text-container p{
+    color: #323f4b;
+    padding-top: 5px;
+}
+.profile-desc-home{
+    padding-left: 15px;
+    color: #323f4b;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.hr-dashed{
+    margin-top: 15px;
+    border: none;
+    border-top: dashed 1.5px rgb(211, 200, 200);
+}
+.hr-dashed-bottom{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    
+}
