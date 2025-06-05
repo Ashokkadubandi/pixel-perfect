@@ -64,7 +64,7 @@ input[type="radio"] {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 30%;
 }
 .signup-form label{
     padding-right: 15px;
