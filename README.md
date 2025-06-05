@@ -1,12 +1,16 @@
-# React + Vite
+# Pixel Pop-x
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and response **UI-only clone** of the pixel to pixel concept.
+This project focuses purely on frontend design,layout, and styling.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **⚠️NOTE** -->>  The project is only for mobile application it is not rendered on above 768px (**Large Devices**)
 
-## Expanding the ESLint configuration
+This project is a static replica of the popular **Pixel to pixel** app interface.
+it's built for learning and showcasing UI skills using modern frontend tools.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+**HTML5**
+**CSS3**
+**REACTJS**
