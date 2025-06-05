@@ -29,10 +29,12 @@ const SignUp = () => {
                 <input className='inp-input' type='text' id='comp'/>
             </div>
             <p className='signup-agency'>Are you an Agency?<span style={{color:'red'}}>*</span></p>
+            <div className='radio-btn-sec'>
             <input name='same' type='radio' id='yes'/>
             <label className='agency-label' htmlFor='yes'>Yes</label>
             <input name='same' type='radio' id='no'/>
             <label className='agency-label' htmlFor='no'>No</label>
+            </div>
             <Link to={'/login'}>
             <button className='sub signup-btn'>Create Account</button>
             </Link>
